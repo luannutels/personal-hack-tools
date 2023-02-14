@@ -4,7 +4,7 @@ res = dns.resolver.Resolver()
 arquivo = open("/home/kali/wordlist.txt", "r")
 subdominios = arquivo.read().splitlines()
 
-alvo = "globo.com.br"
+alvo = "target-domain"
 
 for subdominio in subdominios:
 	try:
